@@ -34,7 +34,7 @@ const Shop = () => {
           <img className="recipe-img" src={recipe.image} alt={recipe.name}  />
           <h3 className="recipe-title">{recipe.name}</h3>
           <span className="recipe-rating">⭐ {recipe.rating}</span>
-          <button onClick={() => addToCart(product)}>Add to cart</button>
+          
           
         </div>
       ))}
