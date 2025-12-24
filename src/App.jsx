@@ -1,15 +1,25 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Darazz from './assets/component/Darazz'
+import Shop from './assets/component/Shop'
+import {Routes, Route} from 'react-router-dom'
+import LoginPage from './assets/pages/LoginPage'
+import SignUp from './assets/pages/SignUp'
+import Product from './assets/component/Product'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <Darazz/>
+      <Routes>
+        <Route path='/signup' element={<SignUp/>}/>
+        <Route path='/login' element={<LoginPage/>}/>
+      </Routes>
+      <Product/>
+      <Shop/>
+     
+      
     </>
   )
 }
