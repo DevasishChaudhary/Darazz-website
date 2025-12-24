@@ -36,9 +36,11 @@ const Product = () => {
           <h3 className="product-title">{product.title}</h3>
           <p className="product-price">Rs{product.price}</p>
           <p className="product-rating">⭐ {product.rating}</p>
-          <button onClick={() => addToCart(product)}>Add to cart</button>
+          
         </div>
+        
       ))}
+      
       
     </div>
     <hr />
