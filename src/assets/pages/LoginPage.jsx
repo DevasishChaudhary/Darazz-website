@@ -7,15 +7,15 @@ const LoginPage = () => {
             <div className='outerLogin'>
                 <h2>Login</h2>
     
-                {/* <div className='form'> */}
+                
                     <label className='formLabel' htmlFor="email">Email</label>
                     <input className='formInput' type="email" placeholder='Enter your Email' required/>
-                {/* </div> */}
                 
-                {/* <div className='form'> */}
+                
+                
                     <label className='formLabel' htmlFor="password">Password</label>
                     <input className='formInput' type="password" placeholder='Enter your Password' required/>
-                {/* </div> */}
+                
 
                 <button type='submit' className='loginBtn'>LogIn</button>
                 
